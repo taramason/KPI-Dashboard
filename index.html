@@ -1,0 +1,76 @@
+<!-- SLIDESHOW LOCATION: \\dceweb01\d$\Sites\Intranet\Projects\Slideshow -->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>KPI Dashboard</title>
+	<link href="css/styles.css" media="screen, projection" rel="stylesheet" type="text/css" />
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,600i" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+	<META HTTP-EQUIV="refresh" CONTENT="604800" charset="utf-8" >
+</head>
+<body>
+	<div class="logoHeader">
+		<img src="assets/csu-online-logo-mobile2.svg" class="csuOnlineLogo">
+	</div>
+	<div class="main">
+		<div class="mainTop">
+			<div class="itemWBkg">
+				<div class="titleDiv">
+					<span class="itemTitle">Applications</span>
+				</div>
+				<div class="infoDiv">
+					<img id="Applications" class="arrow">
+					<div class="itemPercent" id="applicationsNum"></div>
+					<div class="percentFrom">from last fiscal year</div>
+				</div>
+			</div>
+			<div class="itemWOBkg">
+				<div class="titleDiv">
+					<span class="itemTitle">Prospects</span>
+				</div>
+				<div class="infoDiv">
+					<img id="Prospects" class="arrow">
+					<div class="itemPercent" id="prospectsNum"></div>
+					<div class="percentFrom">from last fiscal year</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="mainBtm">
+			<div class="itemWOBkg">
+				<div class="titleDiv">
+					<span class="itemTitle">Students Served</span>
+				</div>
+				<div class="infoDiv">
+					<div class="itemPercent" id="studentsNum"></div>
+					<div class="percentFrom">in last 3 semesters</div>
+				</div>
+			</div>
+			<div class="itemWBkg">
+				<div class="titleDiv">
+					<span class="itemTitle">Enrollments</span>
+				</div>
+				<div class="infoDiv">
+					<img id="Enrollments" class="arrow">
+					<div class="itemPercent" id="enrollmentsNum"></div>
+					<div class="percentFrom">from this week one year ago</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="announcementFooter">
+		<!--Uncomment when get in stored procedure:-->
+		<!--<span class="announcementFirst">Launching in Sept :</span>
+		<span class="announcementSecond">
+			<span class="announcementBold">
+				Rutgers Cooperative Extension Developmental Disablities Badge
+			</span>
+		</span>-->
+	</div>
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"
+			integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+			crossorigin="anonymous"></script>
+	<script src="javascript/app.js"></script>
+</body>
+</html>
